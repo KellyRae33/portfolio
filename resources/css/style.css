@@ -2,17 +2,28 @@
 html{
   font-size: 30px;
   font-family: 'Source Sans Pro', helvetica, sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 1rem;
+}
+h2{
+  font-size: .75rem;
+}
+p{
+  font-size: .6rem;
 }
 
 /*Navigation*/
 nav{
   display: flex;
   background-color: lightgray;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   padding: .5rem;
 }
 span a{
+  padding: 0 1rem;
   font-size: .75rem;
   text-decoration: none;
   color: black;
@@ -31,7 +42,7 @@ span a:hover{
   width: 1400px;
   height: 550px;
 }
-.banner h1{
+.banner .btn{
   position: relative;
   top: 3rem;
   left: 2rem;
@@ -43,18 +54,36 @@ span a:hover{
   font-weight: bold;
 }
 
-/*Contact Info*/
-.contact-info{
-  padding: 1rem;
-  text-align: center;
-  line-height: 2rem;
+.banner .btn:hover{
+  background-color: rgb(221, 238, 238);
 }
-.contact-info a{
-  color: black;
+
+/*Skills*/
+#skills{
+  padding: 2rem 0;
+  background-color: rgb(235, 236, 248);
+}
+
+/*Projects*/
+#projects{
+  padding: 2rem 0;
+  background-color: rgb(230, 219, 230);
+}
+/*Contact Info*/
+#contact{
+  background-color: rgb(196, 242, 225);
+  padding: 2rem 0;
+}
+#contact h2{
+  line-height: 1.25rem;
 }
 
 /*footer*/
 footer{
+  text-align: center;
   font-size: .5rem;
   padding: 1rem;
+}
+footer a{
+  padding: 0 1rem;
 }
