@@ -1,0 +1,60 @@
+/*Universal Styles*/
+html{
+  font-size: 30px;
+  font-family: 'Source Sans Pro', helvetica, sans-serif;
+}
+
+/*Navigation*/
+nav{
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem;
+}
+span a{
+  font-size: .75rem;
+  text-decoration: none;
+  color: black;
+  transition: all .5s linear 0s;
+}
+span a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+/*Banner*/
+.banner{
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/banner.jpg);
+  width: 1400px;
+  height: 550px;
+}
+.banner h1{
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+  text-align: left;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  width: 10rem;
+  font-weight: bold;
+}
+
+/*Contact Info*/
+.contact-info{
+  padding: 1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.contact-info a{
+  color: black;
+}
+
+/*footer*/
+footer{
+  font-size: .5rem;
+  padding: 1rem;
+}
